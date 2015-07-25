@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="3">
+            <Title>Front Matter</Title>
+        </Document>
+        <Document ID="4">
+            <Title>Hard Work</Title>
+        </Document>
+        <Document ID="5">
+            <Title>Title Page</Title>
+            <Synopsis>Title page to the manuscript.</Synopsis>
+            <Text>
+Derek Jacoby and Raymond McCauley
+
+&lt;$wc100&gt; words.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;$RollingBackTheClock&gt;
+
+by &lt;$Derek Jacoby and Raymond McCauley&gt;</Text>
+            <Notes>This is the title page of the manuscript. Note that “Compile As-Is” is ticked - this ensures that the title page’s formatting doesn’t get changed during the Compile process, even though the formatting of other text documents will be overridden to use a standard 12-point manuscript font.
+
+The &lt;$projecttitle&gt; and &lt;$fullname&gt; tags get replaced with the information set in Project &gt; Meta-Data Settings… &gt; Project Properties. You can edit those settings or just replace this text altogether.</Notes>
+        </Document>
+        <Document ID="9">
+            <Title>Healthy Eating</Title>
+        </Document>
+        <Document ID="10">
+            <Title>Cognition</Title>
+        </Document>
+        <Document ID="11">
+            <Title>Hormones and Reproduction</Title>
+        </Document>
+        <Document ID="12">
+            <Title>Non-Fiction Format</Title>
+            <Text>NON-FICTION WITH SUB-HEADS
+
+About This Template
+When compiled (File &gt; Compile), this project will generate a document in standard manuscript format with sub-headings inside the chapters.
+
+How To Use This Template
+Edit the Title Page document to ensure it contains the correct information.
+Create a new folder for each chapter and title each folder with the name of the chapter. If you don’t intend to use chapter names, just use something descriptive that tells you what the chapter is about. (You do not need to title the folders “Chapter One” and so on, as chapter numbering will be taken care of automatically during the Compile process.) The first chapter folder has been created for you with the placeholder title “Chapter Subtitle”.
+Create a new text document for each sub-section within the chapter folders, giving each the title of the subheading you wish to appear in the text. You can nest text documents for smaller subheadings, like this:
+￼
+If you don’t require a foreword, move the “Foreword” document to the Trash folder. Alternatively, rename it “Preface” or “Introduction” if you prefer. If you would rather the foreword come after the table of contents—as is sometimes the case—drag the “Foreword” document and drop it below the “Contents” document.
+If you are compiling to the RTF file format or if you have Microsoft Office installed and are compiling to DOC, DOCX, PDF or Print, you can create a table of contents. Before compiling, simply select all the documents you wish to be included in the contents listing (usually this will be the “Foreword”, all chapter folders, and “Endnotes”, but not the nested sub-sections), then go to Edit &gt; Copy Special &gt; Copy Documents as ToC. Paste into the “Contents” document below the “Contents” title. The resulting linked text and page number tags will be replaced with the final chapter names and page numbers in the compiled document. You can format the contents however you wish, for example removing the underlines or indenting subsections if you chose to include them. You don’t need to do this every time you compile, just when chapters have been added, deleted, renamed or moved around. (Note to Microsoft Word users: If you export to Word, you may need to generate a print preview in Word to force the page numbers to show up correctly—they may appear as question marks before doing so.) Deselect “Include in compile” for the Contents document in the inspector if you do not want it in your final output.
+If you have no footnotes or endnotes in your text, be sure to delete the “Endnotes” document.
+“Notes” and “Ideas” folders have been provided for your convenience, although you can replace them or create different top-level folders for your research materials if necessary (these are just regular folders that have had custom icons assigned to them using the Documents &gt; Change Icon feature.)
+Compile your manuscript into standard manuscript format by selecting File &gt; Compile. The “Front Matter” folder is already selected for inclusion in the compile Contents pane.
+
+Making Changes
+There are various minor changes you can make to the settings to tweak this template so that it better suits your needs, as follows:
+Chapter subtitles: If you don’t want to include the names of your chapter folders below the chapter numbering text in the compiled document, go to the “Formatting” pane in the Compile dialog and deselect “Title” in the list of elements to include. You will also need to edit the title prefix in the “Section Layout”.
+Hierarchical numbering: If you require hierarchical numbering for sub-sections, choose “Non-Fiction with Sub-Heads (Hierarchical)” from the “Format As” menu in Compile. Alternatively, edit the “Section Layout” for each level in the “Formatting” pane of Compile and add the “&lt;$hn&gt;” (for “hierarchical numbering”) tag to the title prefixes. 
+Page header: You can edit the page header in the “Page Settings” pane of the Compile dialog.
+Font: You can use the “Formatting” pane in Compile to change the font used in the final document by selecting a row in the elements table, then clicking into the preview text to select it and clicking the “A” button in the format bar to change the font settings.
+
+Sample Document
+See the “Sample MS” PDF file in the Research folder for an example of a document that has been created using this template. This is what the “Draft” folder structure looked like in the binder for this sample document:
+
+￼
+
+Final Note
+Scrivener project templates are flexible and are not intended to restrict you to a particular workflow. You can change, delete or move the files and folders contained in the template, and you can create your own templates by setting up a skeletal project with the files, folders and settings you would like to use for new projects and using File &gt; Save As Template.</Text>
+        </Document>
+        <Document ID="13">
+            <Title>Cancer and Disease</Title>
+        </Document>
+        <Document ID="14">
+            <Title>Cardio</Title>
+            <Text>Endurance - VO2 max, heart rate (max and recovery)
+Blood pressure
+Calcium scan and atherosclerosis
+Heart rate variability</Text>
+        </Document>
+        <Document ID="15">
+            <Title>Strength</Title>
+            <Text>Curls, squats, situps, etc.
+</Text>
+        </Document>
+        <Document ID="16">
+            <Title>Flexibility</Title>
+            <Text>Ankles, calf, hamstring, hip, back, arms. Measure progress and document. Approaches to improving flexibility.</Text>
+        </Document>
+        <Document ID="17">
+            <Title>Diet</Title>
+            <Text>Paleo vs low carb vs vegan vs vegetarian what really matters?
+</Text>
+        </Document>
+        <Document ID="18">
+            <Title>Blood Biomarkers</Title>
+            <Text>Insulin resistance
+Lipids - triglycerides, HDL/LDL + particle size
+Nutrient analysis
+Vitamins
+</Text>
+        </Document>
+        <Document ID="19">
+            <Title>Genes and Diet</Title>
+            <Text>This might be a recurrent section in each chapter (with the topic of that chapter, of course). Interplay of genetics and diet.</Text>
+        </Document>
+        <Document ID="20">
+            <Title>project intro</Title>
+            <Text>This is the start of a project to roll back the clock. As I slip into the depth of middle age there are ways my body just doesn't feel right anymore. I get tired more easily, I have a bit too much around the waist, I have some joint aches. Conventional wisdom is that it's only going to get worse. The long slide into old age is irreversible. But is that really true? Is all the struggle now just to slow the decline? Or is it possible to roll back the clock? Documented here is an attempt to do so. And to do so in a way that others can see what worked and what did not - founded on data and science. This book will explore the latest in scientific advances, things that are on the horizon, and things you can do today. But of course, scientific advances won't get rid of the need for hard work. That will get documented here as well.
+This is not just a story of my journey, though. In order to make it most generalizable, this is a collection of stories. Broadly introduced under the idea of “12 months, 12 thousand dollars, what can you do?”</Text>
+        </Document>
+        <Document ID="21">
+            <Title>People intro</Title>
+            <Text>Derek
+
+44 year old white male. 220 Pounds. Five foot eleven. A former competitive wrestler - two time Canadian junior champion and a black belt in Judo. But the memory of those accomplishments rests more in my mind than my body. Twenty years of desk jobs in the high tech industry have wreaked their havoc on my base level of fitness and capability. No serious chronic illnesses. Allergies, a few of the symptoms of metabolic syndrome but no diabetes. A bit of osteoarthritis in an elbow, left over from an old injury from a motorcycle accident. Some anxiety and mood issues, but nothing under ongoing psychiatric care.</Text>
+        </Document>
+        <Document ID="22">
+            <Title>Genetics</Title>
+        </Document>
+        <Document ID="23">
+            <Title>Nature vs. Nurture</Title>
+            <Text>This chapter will look at the genetics of aging. The super centenarian studies. How to access your own genome. What the data means.
+
+Epigenetics and whether your genome is modifiable.
+
+Genetics forms the base, but everything is modifiable, as we’ll see in the next chapters.
+</Text>
+        </Document>
+        <Document ID="24">
+            <Title>cognitive decline</Title>
+            <Text>Alzheimers, pre-alzheimers
+Diet tie in
+Genetics
+Treatment (brief look)
+Brain training
+Memory and attention</Text>
+        </Document>
+        <Document ID="25">
+            <Title>vision</Title>
+            <Text>Trainable vision system
+Acuity
+Corrective lenses and surgery
+</Text>
+        </Document>
+        <Document ID="26">
+            <Title>Hearing</Title>
+            <Text>Types of hearing loss - physical and cognitive
+Streaming deficits (cocktail party effect)
+Devices
+Training
+</Text>
+        </Document>
+        <Document ID="27">
+            <Title>Ideas</Title>
+        </Document>
+        <Document ID="28">
+            <Title>Notes</Title>
+        </Document>
+        <Document ID="29">
+            <Title>Endnotes</Title>
+            <Text> All footnotes will get inserted here upon print, and this bubble will be removed automatically.</Text>
+        </Document>
+        <Document ID="30">
+            <Title>Foreword</Title>
+            <Text>This is the start of a project to roll back the clock. As I slip into the depth of middle age there are ways my body just doesn’t feel right anymore. I get tired more easily, I have a bit too much around the waist, I have some joint aches. Conventional wisdom is that it’s only going to get worse. The long slide into old age is irreversible. But is that really true? Is all the struggle now just to slow the decline? Or is it possible to roll back the clock? Documented here is an attempt to do so. And to do so in a way that others can see what worked and what did not - founded on data and science. This book will explore the latest in scientific advances, things that are on the horizon, and things you can do today. But of course, scientific advances won’t get rid of the need for hard work. That will get documented here as well.</Text>
+        </Document>
+        <Document ID="31">
+            <Title>Contents</Title>
+            <Text>
+
+
+
+
+
+
+
+
+
+
+
+Contents
+</Text>
+            <Notes>Use `Edit &gt; Copy Special &gt; Copy Documents as ToC` if you are compiling to RTF or to PDF, DOC, DOCX or Print and have Microsoft Word installed.</Notes>
+        </Document>
+        <Document ID="32">
+            <Title>hormones</Title>
+            <Text>Testosterone levels
+Dhea
+Diet and testosterone
+Hair loss
+DHT
+Grey hair
+</Text>
+        </Document>
+        <Document ID="33">
+            <Title>reproductive</Title>
+            <Text>Libido
+Sperm banking
+Egg banking
+Embryo freezing
+Upcoming reproductive technologies
+</Text>
+        </Document>
+        <Document ID="34">
+            <Title>cancer</Title>
+            <Text>Biomarkers
+RNA
+CT scan
+Circulating tumor cells
+Personalized medicine approaches for cancer
+</Text>
+        </Document>
+        <Document ID="36">
+            <Title>immune system</Title>
+            <Text>Reduced immune action with age
+Vaccines and other ways to boost immunity
+Diet and immunity (sugar!)
+Sleep and immunity
+</Text>
+        </Document>
+        <Document ID="37">
+            <Title>sleep</Title>
+            <Text>Sleep cuts across many of these other categories
+Usually declines with age
+
+#todo
+Sleep statistics
+Sleep improvement techniques
+Sleep tracking
+Drugs and sleep
+</Text>
+        </Document>
+    </Documents>
+</SearchIndexes>
