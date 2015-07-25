@@ -180,14 +180,14 @@
                         <CorkboardSettings/>
                     </CorkboardAndOutliner>
                     <Children>
-                        <BinderItem ID="17" Created="2015-07-23 16:45:17 +0000" Modified="2015-07-25 00:54:07 +0000" Type="Text">
+                        <BinderItem ID="17" Created="2015-07-23 16:45:17 +0000" Modified="2015-07-25 01:01:30 +0000" Type="Text">
                             <Title>Diet</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <NotesTextSelection>0,0</NotesTextSelection>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>95,95</TextSelection>
+                                <TextSelection>109,109</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <CorkboardAndOutliner>
@@ -424,26 +424,13 @@
                         <NotesTextSelection>0,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>131,131</TextSelection>
+                        <TextSelection>130,130</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <CorkboardAndOutliner>
                         <CorkboardSettings>
                             <FreeformMode>Yes</FreeformMode>
                         </CorkboardSettings>
-                    </CorkboardAndOutliner>
-                </BinderItem>
-                <BinderItem ID="6" Created="2015-07-25 00:52:40 +0000" Modified="2015-07-25 00:52:40 +0000" Type="Text">
-                    <Title></Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <NotesTextSelection>0,0</NotesTextSelection>
-                    </MetaData>
-                    <TextSettings>
-                        <Target Type="Words">0</Target>
-                    </TextSettings>
-                    <CorkboardAndOutliner>
-                        <CorkboardSettings/>
                     </CorkboardAndOutliner>
                 </BinderItem>
                 <BinderItem ID="31" Created="2011-07-07 16:58:53 +0000" Modified="2014-06-12 05:22:58 +0000" Type="Text">
